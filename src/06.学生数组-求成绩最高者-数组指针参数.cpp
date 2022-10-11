@@ -47,10 +47,10 @@ Student max(Student (&students)[5]){
 }
 
 
-int main(){
+int main6(){
 	Student students[5] = {Student(1, 59.8), Student(2, 99.9), Student(3, 88.9), Student(4, 77.9), Student(5, 44.9)};
 	Student max_score_student = max(students);
-	cout << "最高分数的学生:" << endl;
+	cout << "学生数组-求成绩最高者-数组指针参数" << endl;
 	cout << "学号：" << max_score_student.getNo() << " 分数：" << max_score_student.getScore();
 	return 1;
 }

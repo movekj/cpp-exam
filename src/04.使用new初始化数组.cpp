@@ -11,14 +11,15 @@
 #include <iostream>
 using namespace std;
 
+int main7(){
+	int *p;
+	cout << "使用new初始化数组" << endl;
+	p = new int[10];
 
-int main5(){
-	char *p;
-	p = new char[10];
-	for (char i='a'; i<'j'; i++){
+	for (int i; i< 10; i++){
 		*(p+i) = i;
 		cout << *(p+i) << endl;
 	}
+	delete p;
 
-	delete []p;
 }

@@ -27,7 +27,7 @@ public:
 };
 
 
-int main4(){
+int main5(){
 
 	cout << "学生数组" << endl;
 	Student arr[5] = {Student(1, 99),Student(2, 98), Student(3, 100), Student(4, 59.9), Student(5, 88.9)};
