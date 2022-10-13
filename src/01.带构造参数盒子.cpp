@@ -31,7 +31,7 @@ public:
 };
 
 
-int main2(){
+int main1(){
 	Box box1 = Box();
 	Box box2 = Box(10, 30, 20);
 	cout << "带构造参数盒子" << endl;

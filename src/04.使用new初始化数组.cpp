@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-int main7(){
+int main4(){
 	int *p;
 	cout << "使用new初始化数组" << endl;
 	p = new int[10];

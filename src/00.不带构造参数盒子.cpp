@@ -36,7 +36,7 @@ public:
 	}
 };
 
-int main1() {
+int main0() {
 	Box b = Box(2, 2, 2);
 	b.setShape("正方形");
 	cout << "不带构造参数盒子" << endl;
