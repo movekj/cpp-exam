@@ -55,7 +55,7 @@ Matrix* operator+ (Matrix m1, Matrix m2){
 	return m;
 }
 
-int main(){
+int main10(){
 	cout << "10.matrix重载运算符" << endl;
 	cout << "开始初始化第一个矩阵" << endl;
 	Matrix matrix1 = Matrix();
