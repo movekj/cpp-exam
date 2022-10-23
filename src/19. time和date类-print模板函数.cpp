@@ -54,7 +54,8 @@ void display(T t){
 
 
 
-int main(){
+int main19(){
+	cout << "19. time和date类-print模板函数" << endl;
 	Time t1(12,30,55);
 
 	Date d1(3,25,2010);
