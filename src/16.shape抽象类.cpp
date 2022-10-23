@@ -64,7 +64,7 @@ public:
 	}
 };
 
-int main(){
+int main16(){
 	cout << "16.shape抽象类";
 
 	Circle s1 = Circle(2);
