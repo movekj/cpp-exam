@@ -26,7 +26,7 @@ public:
 };
 
 int main21(){
-	cout << ""
+	cout << "21.time 类-秒表" << endl;
 	Time time;
 	time.run();
 }
