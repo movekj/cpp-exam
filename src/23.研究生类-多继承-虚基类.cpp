@@ -53,7 +53,7 @@ public:
 
 };
 
-int main(){
+int main23(){
 	Graduate g("李星星", 29, 100.0, "高级工程师", 300000);
 	g.display();
 	return 0;
